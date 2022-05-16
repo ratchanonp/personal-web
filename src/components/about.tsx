@@ -13,7 +13,7 @@ const About = (props: Props) => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-2/3">
               <h2 className="text-3xl md:text-7xl  text-white bg-red-500 w-fit p-3 font-bold">
-                <Link href="#work">
+                <Link href="#about">
                   <a className="underline decoration-white">#</a>
                 </Link>{" "}
                 About

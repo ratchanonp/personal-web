@@ -10,12 +10,14 @@ const Work = (props: Props) => {
       <section id="work" className="h-screen">
         <Container>
           <h2 className="text-3xl md:text-7xl  text-white bg-blue-500 w-fit p-3 font-bold">
-            <Link href="#about">
+            <Link href="#work">
               <a className="underline decoration-white">#</a>
             </Link>{" "}
             Work
           </h2>
-          <p className="tracking-widest text-gray-500 md:text-xl">my past work</p>
+          <p className="tracking-widest text-gray-500 md:text-xl">
+            my past work
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 text-sm md:text-xl">
             <div>
               <h3 className="text-xl md:text-2xl">2020</h3>

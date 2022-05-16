@@ -10,7 +10,7 @@ const Contact = (props: Props) => {
       <section id="contact" className="h-screen">
         <Container>
           <h2 className="text-3xl md:text-7xl text-white bg-green-500 w-fit p-3 font-bold">
-            <Link href="#work">
+            <Link href="#contact">
               <a className="underline decoration-white">#</a>
             </Link>{" "}
             Contact

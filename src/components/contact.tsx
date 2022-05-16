@@ -9,17 +9,20 @@ const Contact = (props: Props) => {
     <>
       <section id="contact" className="h-screen">
         <Container>
-          <h2 className="text-7xl text-white bg-green-500 w-fit p-3 font-bold">
-            # Contact
+          <h2 className="text-3xl md:text-7xl text-white bg-green-500 w-fit p-3 font-bold">
+            <Link href="#work">
+              <a className="underline decoration-white">#</a>
+            </Link>{" "}
+            Contact
           </h2>
-          <p className="tracking-widest text-gray-500 text-xl">
+          <p className="tracking-widest text-gray-500 md:text-xl">
             keep in touch with me
           </p>
-          <div className="flex mt-20 justify-evenly">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 gap-4">
             <Link href="https://www.linkedin.com/in/rpanmas/" passHref>
-              <a className="flex justify-center items-center space-x-5 text-3xl">
+              <a className="flex items-center space-x-5 text-3xl">
                 <svg
-                  className="w-20 h-20 text-blue-500 fill-current"
+                  className="w-10 h-10 md:w-20 md:h-20  text-blue-500 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
                 >
@@ -29,9 +32,9 @@ const Contact = (props: Props) => {
               </a>
             </Link>
             <Link href="https://twitter.com/RatchanonQ" passHref>
-              <a className="flex items-center space-x-5 w-fit text-3xl">
+              <a className="flex items-center space-x-5 text-3xl">
                 <svg
-                  className="w-20 h-20 text-blue-300 fill-current"
+                  className="w-10 h-10 md:w-20 md:h-20  text-blue-300 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -41,9 +44,9 @@ const Contact = (props: Props) => {
               </a>
             </Link>
             <Link href="https://github.com/ratchanonp">
-              <a className="flex items-center space-x-5 w-fit text-3xl">
+              <a className="flex items-center space-x-5  text-3xl">
                 <svg
-                  className="w-20 h-20 fill-current"
+                  className="w-10 h-10 md:w-20 md:h-20  fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >

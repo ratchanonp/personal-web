@@ -16,9 +16,15 @@ const NextPage: NextPage = (props: Props) => {
       <Head>
         <title>Ratchanon Panmas</title>
         <meta name="og:image" content="/og_image.png" />
-        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@RatchanonQ" />
         <meta name="twitter:creator" content="@RatchanonQ" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content="PSGC API Banner" />
+        <meta name="twitter:title" content="Ratchanon Panmas" />
+        <meta
+          name="twitter:description"
+          content="Hello, I am Ratchanon Panmas. I am a computer science student at Chulalongkorn University."
+        />
       </Head>
       <main className="relative">
         <Greeting />

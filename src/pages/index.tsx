@@ -15,6 +15,7 @@ const NextPage: NextPage = (props: Props) => {
     <>
       <Head>
         <title>Ratchanon Panmas</title>
+        <meta name="og:image" content="/og_image.png" />
       </Head>
       <main className="relative">
         <Greeting />
